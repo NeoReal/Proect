@@ -1,0 +1,154 @@
+
+ .body
+ {
+ -moz-hyphens: auto;
+ -webkit-hyphens: auto;
+ -ms-hyphens: auto;
+ }
+.blok1
+{
+     background-image: url(image/fon1.gif);   
+     background-color: #c7b39b;
+     height: 130px;
+     text-align:  center;
+     font-size: 40px;
+     color: #ffd700; 
+     border: 2px solid #40e0d0; 
+ }    
+img
+{
+    float: left;
+    width: 180px;
+}
+.blok1 b
+{
+     text-align:  center;
+     font-size: 20px;
+     color: aqua; 
+ }    
+.blok2
+{
+     background-image: url(image/4.gif);   
+     background-color: #c7b39b;
+     height: 55px;
+     text-align:  center;
+     left: 30px;
+     font-size: 30px;
+     color: #ffd700;  
+     border: 2px solid #40e0d0; 
+ }  
+.blok2 a
+{
+     display: inline-block;
+     margin-right:10%; /* отступ справа */
+     background:darkorchid; /* Цвет фона */
+     color:aqua; /* Цвет текста */
+     padding: 5px;
+}
+.blok3, .blok6, .blok9, .blok12, .blok15
+{
+     background: aqua;
+     text-align:  center;
+     font-size: 30px;
+     color: #ffd700;  
+}
+.blok3 table
+{
+     background: darkorchid;
+     text-align:  center;
+     font-size: 30px;
+     color: aqua;  
+}
+.blok4, .blok7napryamok, .blok10misya, .blok13navichki, .blok16
+{
+     background: darkorchid;
+     text-align:  center;
+     font-size: 30px;
+     color:darkblue;
+ }
+ .blok4 a
+{
+     background: darkorchid;
+     margin-top: 35%; 
+     text-align:  center;
+     color:aqua;
+     font-size: 30px;
+ }
+ .blok6 p
+{
+     text-align:  center;
+     color: darkorchid;
+ }
+    .blok5, .blok8, .blok11, .blok14
+{
+     background-image: url(image/5.gif);   
+     background-color: #c7b39b;
+     height: 80px;
+     text-align:  center;
+     font-size: 30px;
+     color: aqua; 
+     border: 2px solid #40e0d0; 
+     left: 30px;
+ }    
+
+.blok5 a, .blok8 a, .blok11 a
+{
+    display: inline-block;
+     margin-top: 1%; 
+     height: 70px;
+    margin-left: 15%; 
+    background:darkorchid; 
+    color:aqua; 
+    padding: 5px;
+    margin-bottom:75%; 
+}
+.blok7napryamok a, .blok10misya a
+{
+    display: inline-block;
+    margin-top: 5%; 
+    margin-left:10%; 
+    background:aqua; 
+    text-align:  center;
+    font-size: 20px;
+    color:darkblue; 
+    padding: 10px;
+    width: 37%; /* Ширина слоя текста*/
+ }
+.blok9 img
+{
+     text-align: center;
+    margin-top: 15%; 
+    margin-left: 15%; 
+}
+.blok13navichki ul,  .blok16 ol
+{
+    margin-top: 10%; 
+    font-size:26px;
+    color:aliceblue; 
+   text-align: left; 
+ }
+  .blok14 a
+{
+    display: inline-block;
+    margin-top: 1%; 
+    height: 70px;
+    margin-right: 50%; 
+    background:darkorchid; 
+    color:aqua; 
+    padding: 5px;
+    margin-bottom:75%; 
+}
+ .blok14 img
+{
+     float: right;
+    width: 180px;
+}
+@media screen (min-width: 576px) and (max-width: 991px) 
+{
+ .blok1
+ {height: 100px;font-size: 50%; }
+ .blok2
+{ height: 25px;
+	left: 10px;
+ font-size: 10px; }  
+ }
